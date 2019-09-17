@@ -37,8 +37,8 @@ Now that you are motivated by all of your fancy artwork that you have created fo
  6. Once the page reloads, you will be taken back to the main folder of the **bboard-tuts** repo. You can check to see if your files are in the new folder by clicking on said folder. You should see something like the image below. ![enter image description here](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/assets/Screen%20Shot%202019-09-17%20at%2012.34.02%20PM.png?raw=)![enter image description here](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/assets/Screen%20Shot%202019-09-17%20at%2012.48.57%20PM.png?raw=)
  7. If you see all of your assets, you are done this step. 
 
- 
-
+# STEP 3
+**Writing your Tutorial in Markdown** 
 
 
 
