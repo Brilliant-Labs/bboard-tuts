@@ -1,7 +1,7 @@
 # How to Code a Servo
 # Or Shake a Foam Tombstone
 
-![alt text](https://media.giphy.com/media/icJ13X7EH26szQrH2L/giphy.gif "For more info: www.brilliantlabs.ca")
+![alt text](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/Servo%20%2B%20Tombstone/main_animation.gif "For more info: www.brilliantlabs.ca")
 Servos are a great way to add motion to your project. They are similiar to a motor that turns a wheel, however they can stop at very precise positions while they turn.
 
 You may have learned in math that a wheel is like a circle and
@@ -48,7 +48,7 @@ pins.servoWritePin(AnalogPin.P2, 180)
 
 Hook up your servo, ``||download:download||`` and try your code! The b.Board has some symbols to help you to identify the location for each wire. Most micro servos, will have a brown, red and orange wire. Remember the rhyme **brown and ground** to easily orient your servo hookup. 
 
-![enter image description here](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/IMG_4239.jpg?raw=true)
+![Servo Hookup Wire](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/Servo%20%2B%20Tombstone/servo_hookup.jpg?raw=true)
 
 ### Some Tips
 
