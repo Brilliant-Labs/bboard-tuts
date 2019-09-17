@@ -33,7 +33,7 @@ There are two values you require:
  2. The angle at which you wish your servo to stop. 
 
 **1.** You can identify the first value by looking at the b.Board and identifying the pin number. For this example I am going to use ``||pins:P2||`` to connect the servo. 
-![Test](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/servo_pin_number.jpeg?raw=true_)
+![Test](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/Servo%20%2B%20Tombstone/servo_pin_number.jpeg?raw=true_)
 
 **2.** For the angle, it is best that you start with 180 degrees so that you can see how farthest point possible for your servo to turn. 
 
