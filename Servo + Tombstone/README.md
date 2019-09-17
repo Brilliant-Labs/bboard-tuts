@@ -2,6 +2,7 @@
 # Or Shake a Foam Tombstone
 
 ![alt text](https://media.giphy.com/media/icJ13X7EH26szQrH2L/giphy.gif "For more info: www.brilliantlabs.ca")
+
 Servos are a great way to add motion to your project. They are similiar to a motor that turns a wheel, however they can stop at very precise positions while they turn.
 
 You may have learned in math that a wheel is like a circle and
