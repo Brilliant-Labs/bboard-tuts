@@ -68,7 +68,7 @@ basic.pause(1000)
 pins.servoWritePin(AnalogPin.P2, 180)
 })
 ```
-![ServoTurn 1 Second Delay](https://media.giphy.com/media/mEz5fAgNXxFVj75ZyH/giphy.gif)
+![ServoTurn 1 Second Delay](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/Servo%20%2B%20Tombstone/servo_turn.gif)
 
 # STEP 5
 Have some fun and attach what ever needs turning to your servo horn. Maybe you want your servo to be extra jittery. Consider using the ``||logic:random||`` blocks for the timing and rotation. 
