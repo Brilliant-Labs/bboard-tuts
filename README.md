@@ -3,9 +3,7 @@
 
 **A couple of notes before we begin:** 
 
- 1. As of September 17, 2019, your tutorial will still only work on the [Makecode IDE](www.makecode.microbit.org) rather than our own  [b.Board IDE](bboard.now.sh). 
- 2. Until these tutorials are hosted on our own b.Board IDE build, they exist in a Readme file in the same *.hex* file that you download and copy to your micro:bit.  
- 3. These instructions will guide you through how to create a tutorial rather than a whole-screen, *MakeCode Activities* that appear at the top of the IDE window. 
+These instructions will guide you through how to create a tutorial rather than a whole-screen, *MakeCode Activities* that appear at the top of the IDE window. 
 
 ![enter image description here](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/assets/difference_tutorials.jpg?raw=true)
 
