@@ -8,13 +8,13 @@ This tutorial will take you through the steps of how to have the b.Board notify 
 
 # STEP 1
 **Setup your Adafruit.io MQTT** After setting up your account at (https://www.adafruit.io        "www.adafruit.io") You will click on "Actions"
-![ISS_Action] (https://github.com/Brilliant-Labs/bboard-tuts/blob/master/ISS%20with%20WiFi_BLE%20Click/ISS_Action.png?raw=true"Click on Action")
+![ISS_Action] (https://github.com/Brilliant-Labs/bboard-tuts/blob/master/ISS%20with%20WiFi_BLE%20Click/ISS_Action.png?raw=true "Click on Action")
 
 # STEP 2
 **Create a New Feed** 
 Now that you have your account set up and you've click on "Action" it is time to create a new feed!  
 
-![ISS_NewFeed] (https://github.com/Brilliant-Labs/bboard-tuts/blob/master/ISS%20with%20WiFi_BLE%20Click/ISS_NewFeed.png?raw=true"Click on New Feed")
+![ISS_NewFeed] (https://github.com/Brilliant-Labs/bboard-tuts/blob/master/ISS%20with%20WiFi_BLE%20Click/ISS_NewFeed.png?raw=true "Click on New Feed")
 
 # STEP 3
 
