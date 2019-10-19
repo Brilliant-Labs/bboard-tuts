@@ -49,7 +49,7 @@ It is now time to head over to IFTTT.com and create an account if you don't alre
 # STEP 8
 **Time to Explore**
 Click on the " + " symbol below the search bar next to "Make my own applets from scratch"
-![ISS_IFTTT_Explore](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/ISS%20with%20WiFi_BLE%20Click/ISS_MakeNewApplet.png?raw=true "Click on " + ")
+![ISS_IFTTT_Explore](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/ISS%20with%20WiFi_BLE%20Click/ISS_MakeNewApplet.png?raw=true "Click on + ")
 
 # STEP 9
 **Define your Service and Trigger**
