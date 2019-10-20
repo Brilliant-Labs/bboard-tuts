@@ -1,6 +1,6 @@
 # IR Distance Click
 
-![Magic](www.something.com "A magician's assistant")
+![Magic](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/ir-distance/IRpic.png?raw=true "A magician's assistant")
 
 ## Description
 
@@ -34,5 +34,5 @@ THE MAGICIAN'S ASSISTANT
 
 This sensor detects the presence of any object that is between 10 and 150 cm from its sensor. Create your own illusions by activating and deactivating a magic trick of your own design. Pull an object out of a hat and place it near the sensor to act as your own magical assistant! 
 
-![Magic](www.something.com "A magician's assistant")
+![Magic](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/ir-distance/magicianGif.gif?raw=true "A magician's assistant")
 
