@@ -1,7 +1,7 @@
 # INTRO TO THE IR THERMO 3 Clickboard
 
 
-![IR Thermo](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/ir-distance/IRpic.png?raw=true "IR Thermo")
+![IR Thermo](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/ir-thermo-3/howIRthermoWorks.png?raw=true "IR Thermo")
 
 ## Description
 
@@ -40,4 +40,4 @@ measuring. It can also be used to
 safely measure anything in hard to
 reach places or hot things from a safe place!
 
-![Magic](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/ir-distance/magicianGif.gif?raw=true "A magician's assistant")
+![Boiling Pot](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/ir-thermo-3/boilingGIF.gif?raw=true "Too hot? Stay safe!")
