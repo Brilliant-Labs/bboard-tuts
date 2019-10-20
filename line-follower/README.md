@@ -1,6 +1,6 @@
 # INTRO TO THE LINE FOLLOWER Clickboard
 
-![Line Follower](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/ir-thermo-3/howIRthermoWorks.png?raw=true "Line Follower")
+![Line Follower](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/line-follower/linefollowing.jpeg?raw=true "Line Follower")
 
 ## Description
 
@@ -51,4 +51,4 @@ roads and mazes for
 your robot to follow.
 
 
-![Boiling Pot](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/ir-thermo-3/boilingGIF.gif?raw=true "Too hot? Stay safe!")
+![Line Following](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/line-follower/robot_moving.gif?raw=true "Let's Keep things centered")
