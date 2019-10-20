@@ -1,7 +1,7 @@
 # INTRO TO THE MOTION Clickboard
 
 
-![Motion Detection](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/line-follower/linefollowing.jpeg?raw=true "Motion Detection")
+![Motion Detection](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/motion/motionSensor.jpg?raw=true "Motion Detection")
 
 ## Description
 
@@ -14,7 +14,7 @@ sensitivity of your sensor, simply
 use your b.Board screwdriver
 until you hit that sweet spot
 
-![Motion Detection](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/line-follower/linefollowing.jpeg?raw=true "Motion Detection")
+![Motion Click](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/motion/motion-click.jpg?raw=true "Motion Click")
 
 ## Code Example
 
@@ -48,4 +48,4 @@ code it to alert you to the
 presence of intruders
 
 
-![Line Following](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/line-follower/robot_moving.gif?raw=true "Let's Keep things centered")
+![Line Following](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/motion/motion_gif.gif?raw=true "Let's Keep things centered")
