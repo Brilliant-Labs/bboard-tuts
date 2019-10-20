@@ -10,6 +10,8 @@ distance sensor is great for
 measuring objects or obstacles at 
 distances between 10 and 150 cm!
 
+![IR Distance Click](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/ir-distance/ir-distance-click.jpg?raw=true "IR DISTANCE Click")
+
 ## Code Example
 
 This example has the IR Distance Click plugged into to MikroBus #1 on the b.Board

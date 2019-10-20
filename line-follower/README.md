@@ -12,6 +12,9 @@ follower has an array of 5
 reflective sensors that sense the
 difference in surface contrast
 
+
+![Line Follower Click](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/line-follower/line-follower-click.jpg?raw=true "Line Follower Click")
+
 ## Code Example
 
 This example has the LINE FOLLOWER Click plugged into to MikroBus #1 on the b.Board. This example also has the forward and backwards movement of the robot controlled by a DC motor plugged into a DC MOTOR click on MikroBus #2 on the b.Board.  We are using a servo motor to control the stearing which is plugged into P0 on the b.Board's servo rail. 

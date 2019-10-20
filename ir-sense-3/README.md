@@ -13,6 +13,8 @@ can be used to detect humans as
 they approach the area where the
 sensor is located.
 
+![IR SENSE 3 Click](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/ir-sense-3/ir-sense-3-click.jpg?raw=true "IR SENSE 3 Click")
+
 ## Code Example
 
 This example has the IR SENSE 3 Click plugged into to MikroBus #1 on the b.Board

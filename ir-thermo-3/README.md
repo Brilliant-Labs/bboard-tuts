@@ -10,6 +10,8 @@ sensor, once pointed at the object
 in question, will provide a
 contactless temperature reading which can be displayed, evaluated, or sent to the cloud for further analysis. 
 
+![IR THERMO 3 Click](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/ir-thermo-3/ir-thermo-3-click.jpg?raw=true "IR THERMO 3 Click")
+
 ## Code Example
 
 This example has the IR THERMO 3 Click plugged into to MikroBus #1 on the b.Board and if the temperature is higher than 20 degrees Celcius we are activating a fan with the DC motor click on MidroBus #2 onk the b.Board.  You can substitue the DC Motor click with anything you like including displaying something on the Micro:Bit's LEDs, turning on Neopixels, servos, etc... 
