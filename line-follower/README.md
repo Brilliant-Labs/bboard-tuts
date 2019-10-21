@@ -12,7 +12,6 @@ follower has an array of 5
 reflective sensors that sense the
 difference in surface contrast
 
-
 ![Line Follower Click](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/line-follower/line-follower-click.jpg?raw=true "Line Follower Click")
 
 ## Code Example
