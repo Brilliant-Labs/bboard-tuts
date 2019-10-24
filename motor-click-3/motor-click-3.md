@@ -1,47 +1,45 @@
-# INTRO TO THE TEMP LOG 2 Clickboard
+# INTRO TO THE Mentor Click 3 Clickboard
 
-![Temp Log 2](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/temp-log-2/hotday.jpg?raw=true "Temp Log 2")
+![Motor Click 3](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/motor-click-3/dcmotor.jpg?raw=true "Motor Click 3")
 
 ## Description
 
-Ambient temperature sensor with
-the ability to store and log data.
-This sensor can sense
-temperatures from -55°C to
-125°C. This sensor would be great
-to monitor and plot the
-temperature changes over time
-in your next project.
+This motor driver will allow you to
+pick up any DC motor you may
+have hiding in your makerspace
+and make it turn. Motors can be
+larger than those yellow motors
+that come with small robots. 
 
-![Temp Log 2 Click](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/temp-log-2/temp-log-2-click.jpg?raw=true "Temp Log 2 Click")
+![Motor Click 3](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/motor-3/gearmotor.jpg?raw=true "Motor Click 3")
+
+With output capabilities of 3.5 A with 30V, you can make use of some very large motors.  
+
+
+![Motor Click 3](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/motor-3/dcpower.png?raw=true "Motor Click 3")
+
+Just be sure to take a jumper cable and take 5V from the b.Board's servo rail or an other power source.
+
+![Motor Click 3](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/motor-3/motor-3-click.jpg?raw=true "Motor Click 3")
 
 ## Code Example
 
-This example has the Temp Log 2 Click plugged into to MikroBus #1 on the b.Board. 
+This example has the Motor 3 Click plugged into to MikroBus #1 on the b.Board. 
 
-We will place the Temp Log 2 Click's value in an "IF / ELSE Statement" which we've nested inside a "Forever Loop". If the temperature is more than 25 degrees Celcius then we will display a message sharing that it is hot!  You could also use this to trigger an IoT action or notification if you have a WiFi_BLE Click or trigger a fan if you have a DC Motor Click.  
+We will place the Motor Click 3's blocks wherever and however you want to make a DC motor move.  It could be from a button input, a condition of an IF / ELSE statement, or other input which actuates the Motor 3 click. 
 
 ```blocks
-basic.forever(function () {
-    if (Temp_Log_2.readTemperatureC(clickBoardID.one) > 25) {
-        basic.showString("It's hot in here! Let's turn on a fan :)")
-    } else {
-        basic.showString("Nice and Comfy")
-    }
+input.onButtonPressed(Button.A, function () {
+    DC_Motor3.motorSpeedDirection(100, DC_Motor3.MotorDirection.Forward, clickBoardID.one)
+    basic.pause(2000)
+    DC_Motor3.motorSpeedDirection(0, DC_Motor3.MotorDirection.Reverse, clickBoardID.one)
 })
+
 ```
 
 ## Project Idea
 
-HOT DOG ALARM
-
-Make sure your pet is
-comfortable with the windows
-down in your car. Keep tabs on
-the temperature with the Temp
-Log 2. This click can send an
-alert to you when your pet’s
-comfort level could be at risk.
+It's warm in here! Can you use the microbit's temperature sensor or the temp log 2 click to trigger a fan with the Motor 3 Click. Or make a gear motor move a car? 
 
 
-![Temp Log 2](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/temp-log-2/hotdaygif.gif?raw=true "Let's Keep things cool")
+![Motor Click 3](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/temp-log-2/fangif.gif?raw=true "Let's Keep things spinning")
