@@ -47,4 +47,4 @@ your treasure chest with
 a magnet.
 
 
-![Reed Sensor](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/reed-sensor/reedswitchgif.gif?raw=true "Let's Keep things cool")
+![Reed Sensor](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/reed-sensor/reedswitchgif.gif?raw=true "Let's Keep Things Safe")
