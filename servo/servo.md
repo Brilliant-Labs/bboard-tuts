@@ -1,47 +1,54 @@
-# INTRO TO THE TEMP LOG 2 Clickboard
+# INTRO TO THE SERVO Clickboard
 
-![Temp Log 2](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/temp-log-2/hotday.jpg?raw=true "Temp Log 2")
+![Servo Click](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/servo/servoinside.jpg?raw=true "Servo Click")
 
 ## Description
 
-Ambient temperature sensor with
-the ability to store and log data.
-This sensor can sense
-temperatures from -55°C to
-125°C. This sensor would be great
-to monitor and plot the
-temperature changes over time
-in your next project.
+Have you noticed that your
+b.Board has 6 on-board 5V servo
+connectors but only 3 are
+available to use at one time?
+Does your project require even
+more servos? All of your
+questions are answered with this
+board that offers 16 servo
+connectors. 
 
-![Temp Log 2 Click](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/temp-log-2/temp-log-2-click.jpg?raw=true "Temp Log 2 Click")
+![Servo Click](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/servo/servoarm.jpg?raw=true "Servo Click")
+
+Just make sure you have your bBoard powered with a wall adapter.  Daisy chain up to 30 more Servo Clicks using the b.Board's expansion port to control more than 500 servo motors!
+
+![Servo Click](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/servo/servo-click.jpg?raw=true "Servo Click")
 
 ## Code Example
 
-This example has the Temp Log 2 Click plugged into to MikroBus #1 on the b.Board. 
+This example has the Servo Click plugged into to MikroBus #1 on the b.Board. 
 
-We will place the Temp Log 2 Click's value in an "IF / ELSE Statement" which we've nested inside a "Forever Loop". If the temperature is more than 25 degrees Celcius then we will display a message sharing that it is hot!  You could also use this to trigger an IoT action or notification if you have a WiFi_BLE Click or trigger a fan if you have a DC Motor Click.  
+You can place the Servo Click's blocks to move your servo motors any way you like! 
 
 ```blocks
-basic.forever(function () {
-    if (Temp_Log_2.readTemperatureC(clickBoardID.one) > 25) {
-        basic.showString("It's hot in here! Let's turn on a fan :)")
-    } else {
-        basic.showString("Nice and Comfy")
-    }
+input.onButtonPressed(Button.A, function () {
+    Servo.setServoAngle(1, 120, clickBoardID.one)
+    Servo.setServoAngle(8, 90, clickBoardID.one)
+    Servo.setServoAngle(16, 180, clickBoardID.one)
+    basic.pause(1000)
+    Servo.setServoAngle(1, 40, clickBoardID.one)
+    Servo.setServoAngle(8, 120, clickBoardID.one)
+    Servo.setServoAngle(16, 0, clickBoardID.one)
 })
 ```
 
 ## Project Idea
 
-HOT DOG ALARM
+Interactive Art!
 
-Make sure your pet is
-comfortable with the windows
-down in your car. Keep tabs on
-the temperature with the Temp
-Log 2. This click can send an
-alert to you when your pet’s
-comfort level could be at risk.
+Keep your world, and your art, moving with the
+ultimate servo click! This click
+board can handle 16 servo
+motors. Options are endless, and
+collaborative servo projects are
+encouraged! Try creating a moving
+work of art friends.  Prefer Robots?  The servo click is your perfect companion to use 16 servos simultaneously!
 
 
-![Temp Log 2](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/temp-log-2/hotdaygif.gif?raw=true "Let's Keep things cool")
+![Servo](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/servo/servogif.gif?raw=true "Let's Keep things moving")
