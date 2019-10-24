@@ -14,7 +14,7 @@ questions are answered with this
 board that offers 16 servo
 connectors. 
 
-![Servo Click](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/servo/servoarm.jpg?raw=true "Servo Click")
+![Servo Click](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/servo/servogif.gif?raw=true "Servo Click")
 
 Just make sure you have your bBoard powered with a wall adapter.  Daisy chain up to 30 more Servo Clicks using the b.Board's expansion port to control more than 500 servo motors!
 
@@ -51,4 +51,4 @@ encouraged! Try creating a moving
 work of art friends.  Prefer Robots?  The servo click is your perfect companion to use 16 servos simultaneously!
 
 
-![Servo](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/servo/servogif.gif?raw=true "Let's Keep things moving")
+![Servo](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/servo/servoarm.jpg?raw=true "Let's Keep things moving") 
