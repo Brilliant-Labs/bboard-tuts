@@ -37,4 +37,4 @@ day item to make your
 clock extra unique.
 
 
-![Stepper-5](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/temp-log-2/steppergif.gif?raw=true "Let's Keep things cool")
+![Stepper-5](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/stepper-5/steppergif.gif?raw=true "Let's Keep things cool")
