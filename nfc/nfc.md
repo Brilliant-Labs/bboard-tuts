@@ -4,15 +4,13 @@
 
 ## Description
 
-Enables you to set a noise
-detection threshold for alarm
-systems, environmental
-monitoring or data logging. Need
-to monitor the volume of your
-voice? No problem. Strap some
-neopixels to your project and
-have them light up to the noise
-level of your voice.
+This NFC enabled ClickBoardTM
+can store simple information
+such as text or a website. Use
+your bBoard to write directly to
+this board and then encourage
+users with a NFC reader on their
+mobile device to find and scan.
 
 ![NFC](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/nfc/nfc-click.jpg?raw=true "NFC Click")
 
@@ -26,9 +24,9 @@ Locate the WiFi_BLE blocks
 
 ![NFC](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/nfc/nfc-code-gif.gif?raw=true "NFC Click")
 
-The noise click will help you measure how much noise (db) is in the area. You can then use the noise level as an input to control actuators, and other outputs. 
+The NFC click can help you broadcast URLs or much more!
 
-Select ||Noise|| category blocks 
+Select || NFC || category blocks 
 
 ```blocks
 let x = 0
@@ -50,16 +48,16 @@ basic.forever(function () {
 
 ## Project Idea
 
-SLEEPOVER NOISE MONITOR
+MAGIC COMMUNICATION
 
-Keep noise levels to a minimum, and
-you and your sleepover pals out of
-trouble, by coding your own noise
-level threshold. Keep an eye on noise
-levels by adding some neopixels into
-the mix. Code your neopixels to alert
-you if you are nearing your threshold
-by flashing different colours.
+Do you need to embed
+information in a subtle way?
+Write some text to this
+ClickBoardTM and embed the
+board itself without a bBoard in
+your project. Tell users to scan
+and your information will be
+revealed.
 
 
 ![Noise](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/nfc/nfc-gif.gif?raw=true "Let's Keep things noisy")

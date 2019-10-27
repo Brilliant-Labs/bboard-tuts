@@ -1,17 +1,17 @@
 # INTRO TO THE WiFi_BLE Clickboard
 
-![Touchpad](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/wife-ble/wifi-ble.jpg?raw=true "Touchpad")
+![Wifi BLE](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/wife-ble/wifilogo.jpg?raw=true "Wifi BLE")
 
 ## Description
 
-Do not let the size fool you, this
-small touch pad can add human
-interface capabilities to your
-bBoard projects. This board
-allows you to map your finger
-movements to Cartesian
-coordinates, as well as simple
-gestures such as swipe and click. 
+Want to wirelessly control your
+project? This WiFi BLE board will
+allow you to connect via either of
+these popular wireless
+communication protocols. 
+
+With the WIFI BLE Click you can connect to a variety of online services including IFTTT, Adafruit.io, MQTT, and even secure Web Sockets!
+
 
 ![WiFi_BLE](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/wifi-ble/wifi-ble-click.jpg?raw=true "WiFi_BLE Click")
 
@@ -23,12 +23,12 @@ Just add your Touchpad blocks and code some motors, screens, lights, or other ou
 
 Locate the WiFi_BLE blocks
 
-![WiFi_BLE](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/wifi-ble/wifi-ble-gif.gif?raw=true "WiFi_BLE Click")
+![WiFi_BLE](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/wifi-ble/wifi-ble-code-gif.gif?raw=true "WiFi_BLE Click")
 
-The touchpad input is built to respond to inputs on an X,Y coordinate grid (0,0 being in the bottom right)
-Here we will create two variables to process the input.  We will set a variable to X, and a second variable to Y.  For our example we will trigger different neopixel colours depending on the Touchpad's input.  We first set the variables, then we create an if/else statement to evaluate the X and Y variables.  If the Y value is less than 10, we will activate the neopixels to Rainbow.  If the X value is less than 10 we will turn the neopixels red.  If neither of these conditions are met then we will change the colour of the neopixels to blue. 
+The WiFi BLE is the perfect click to connect your latest inventions to the internet or send data to a cloud service!
 
-Select ||touchpad|| category blocks 
+
+Select || WiFi BLE || category blocks 
 
 ```blocks
 let x = 0
@@ -61,4 +61,4 @@ motor from around the world?
 The choice is yours!
 
 
-![Wifi-ble](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/wifi-ble/wifi-ble.gif?raw=true "Let's Keep things Connected")
+![Wifi-ble](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/wifi-ble/wifi-clic-gif.gif?raw=true "Let's Keep things Connected")

@@ -4,15 +4,9 @@
 
 ## Description
 
-Enables you to set a noise
-detection threshold for alarm
-systems, environmental
-monitoring or data logging. Need
-to monitor the volume of your
-voice? No problem. Strap some
-neopixels to your project and
-have them light up to the noise
-level of your voice.
+This two lined, mini LCD display
+will let you display up to 16
+characters on 2 different lines. Use this to add additional, text-based feedback to your project.
 
 ![LCD MINI](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/lcd-mini/lcd-mini-click.jpg?raw=true "LCD MINI Click")
 

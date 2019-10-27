@@ -55,7 +55,7 @@ PROJECT PROTECTION
 Be the only one who can run
 your experiment, turn on
 your robot or even enter your
-mad scientist laboratory.
+mad scientist laboratory with this Keylock Click.
 
 
 ![Keylock](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/keylock/keylock-gif.gif?raw=true "Let's Keep things locked")
