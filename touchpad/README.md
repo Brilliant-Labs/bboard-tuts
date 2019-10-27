@@ -23,7 +23,7 @@ This example has the Touchpad Click plugged into to MikroBus #1 on the b.Board.
 
 ## Locate Touchpad blocks
 
-![Touchpad](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/touchpad/touchpad-blocks.gif?raw=true "Touchpad Click")
+![Touchpad](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/touchpad/touchpadgif.gif?raw=true "Touchpad Click")
 
 Just add your Touchpad blocks and code some motors, screens, lights, or other outputs to react to the Touchpad Click's input!
 
