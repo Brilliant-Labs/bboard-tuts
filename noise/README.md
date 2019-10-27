@@ -31,20 +31,9 @@ The noise click will help you measure how much noise (db) is in the area. You ca
 Select ||Noise|| category blocks 
 
 ```blocks
-let x = 0
-let y = 0
-let strip = neopixel.create(DigitalPin.P8, 30, NeoPixelMode.RGB)
+let strip = neopixel.create(DigitalPin.P1, 30, NeoPixelMode.RGB)
 basic.forever(function () {
-    y = Touchpad.getY(clickBoardID.two)
-    x = Touchpad.getX(clickBoardID.two)
-    basic.pause(100)
-    if (x < 10) {
-        strip.showColor(neopixel.colors(NeoPixelColors.Red))
-    } else if (y < 10) {
-        strip.showRainbow(1, 360)
-    } else {
-        strip.showColor(neopixel.colors(NeoPixelColors.Blue))
-    }
+    strip.showBarGraph(Noise.getNoiseLevel(clickBoardID.one), 1024)
 })
 ```
 

@@ -28,20 +28,11 @@ Locate the || Relay || blocks
 
 
 ```blocks
-let x = 0
-let y = 0
-let strip = neopixel.create(DigitalPin.P8, 30, NeoPixelMode.RGB)
-basic.forever(function () {
-    y = Touchpad.getY(clickBoardID.two)
-    x = Touchpad.getX(clickBoardID.two)
-    basic.pause(100)
-    if (x < 10) {
-        strip.showColor(neopixel.colors(NeoPixelColors.Red))
-    } else if (y < 10) {
-        strip.showRainbow(1, 360)
-    } else {
-        strip.showColor(neopixel.colors(NeoPixelColors.Blue))
-    }
+input.onButtonPressed(Button.A, function () {
+    Relay.relayOn(Relay.relay.Relay1, clickBoardID.one)
+})
+input.onButtonPressed(Button.B, function () {
+    Relay.relayOff(Relay.relay.Relay1, clickBoardID.one)
 })
 ```
 

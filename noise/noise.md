@@ -18,11 +18,10 @@ level of your voice.
 
 ## Code Example
 
-This example has the Touchpad Click plugged into to MikroBus #1 on the b.Board.
+This example has the Noise Click plugged into to MikroBus #1 on the b.Board.
 
-Just add your Touchpad blocks and code some motors, screens, lights, or other outputs to react to the Touchpad Click's input!
+Just add your Noise Click blocks and code some motors, screens, lights, or other outputs to react to the Noise Click's input!
 
-Locate the WiFi_BLE blocks
 
 ![Noise](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/noise/noise-code-gif.gif?raw=true "Noise Click")
 
@@ -31,20 +30,9 @@ The noise click will help you measure how much noise (db) is in the area. You ca
 Select ||Noise|| category blocks 
 
 ```blocks
-let x = 0
-let y = 0
-let strip = neopixel.create(DigitalPin.P8, 30, NeoPixelMode.RGB)
+let strip = neopixel.create(DigitalPin.P1, 30, NeoPixelMode.RGB)
 basic.forever(function () {
-    y = Touchpad.getY(clickBoardID.two)
-    x = Touchpad.getX(clickBoardID.two)
-    basic.pause(100)
-    if (x < 10) {
-        strip.showColor(neopixel.colors(NeoPixelColors.Red))
-    } else if (y < 10) {
-        strip.showRainbow(1, 360)
-    } else {
-        strip.showColor(neopixel.colors(NeoPixelColors.Blue))
-    }
+    strip.showBarGraph(Noise.getNoiseLevel(clickBoardID.one), 1024)
 })
 ```
 
