@@ -33,20 +33,11 @@ The LCD MINI can help you display data and words to an LCD Screen.
 Select ||LCD MINI|| category blocks 
 
 ```blocks
-let x = 0
-let y = 0
-let strip = neopixel.create(DigitalPin.P8, 30, NeoPixelMode.RGB)
 basic.forever(function () {
-    y = Touchpad.getY(clickBoardID.two)
-    x = Touchpad.getX(clickBoardID.two)
-    basic.pause(100)
-    if (x < 10) {
-        strip.showColor(neopixel.colors(NeoPixelColors.Red))
-    } else if (y < 10) {
-        strip.showRainbow(1, 360)
-    } else {
-        strip.showColor(neopixel.colors(NeoPixelColors.Blue))
-    }
+    LCD_Mini.lcd_writeString("Hello", lineNumber.one, clickBoardID.one)
+    LCD_Mini.lcd_writeString("World", lineNumber.two, clickBoardID.one)
+    basic.pause(1000)
+    LCD_Mini.lcd_clearDisplay(clickBoardID.one)
 })
 ```
 
