@@ -1,6 +1,6 @@
 # INTRO TO THE WiFi_BLE Clickboard
 
-![Wifi BLE](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/wife-ble/wifilogo.jpg?raw=true "Wifi BLE")
+![Wifi BLE](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/wifi-ble/wifilogo.jpg?raw=true "Wifi BLE")
 
 ## Description
 
