@@ -61,4 +61,4 @@ motor from around the world?
 The choice is yours!
 
 
-![Wifi-ble](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/wifi-ble/wifi-clic-gif.gif?raw=true "Let's Keep things Connected")
+![Wifi-ble](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/wifi-ble/wifi-click-gif.gif?raw=true "Let's Keep things Connected")
