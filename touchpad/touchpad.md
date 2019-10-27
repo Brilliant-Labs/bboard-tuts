@@ -13,8 +13,6 @@ movements to Cartesian
 coordinates, as well as simple
 gestures such as swipe and click. 
 
-![Touchpad](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/touchpad/touchpad.gif?raw=true "Touchpad")
-
 ![Touchpad](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/touchpad/touchpad-click.jpg?raw=true "Touchpad Click")
 
 ## Code Example
