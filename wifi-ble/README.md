@@ -34,7 +34,7 @@ Select || WiFi BLE || category blocks
 input.onButtonPressed(Button.A, function () {
     WiFi_BLE.publishAdafruitMQTT("StayBrilliant/feeds/test", input.temperature(), clickBoardID.one)
 })
-WiFi_BLE.WifiConnect("", "", clickBoardID.one)
+WiFi_BLE.WifiConnect("Enter SSID Here", "Enter PW Here", clickBoardID.one)
 basic.pause(100)
 basic.showIcon(IconNames.Yes)
 ```
