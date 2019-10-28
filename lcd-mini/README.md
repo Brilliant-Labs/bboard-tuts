@@ -26,7 +26,7 @@ The screen currently has 2 lines to choose from and will display up to 16 charac
 
 Locate the LCD_MINI blocks
 
-![LCD Mini](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/lcd-mini/lcd-mini-code-gif.gif?raw=true "LCD MINI Click")
+![LCD Mini](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/lcd-mini/lcd-code-gif.gif?raw=true "LCD MINI Click")
 
 The LCD MINI can help you display data and words to an LCD Screen. 
 
