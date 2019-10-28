@@ -30,7 +30,7 @@ Locate the LCD_MINI blocks
 
 The LCD MINI can help you display data and words to an LCD Screen. 
 
-Select ||LCD MINI|| category blocks 
+Select LCD MINI category blocks 
 
 ```blocks
 basic.forever(function () {
