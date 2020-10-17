@@ -49,7 +49,7 @@ PROJECT PROTECTION
 Be the only one who can run
 your experiment, turn on
 your robot or even enter your
-mad scientist laboratory.
+mad scientist laboratory.  The keylock click has endless possiblities for security and projects where you just need a key to start and stop things :)
 
 
 ![Keylock](https://github.com/Brilliant-Labs/bboard-tuts/blob/master/keylock/keylock-gif.gif?raw=true "Let's Keep things locked")
